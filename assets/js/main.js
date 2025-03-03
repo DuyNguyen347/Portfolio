@@ -33,6 +33,7 @@ let swiperProjects = new Swiper('.projects__container', {
     cssMode: true,
     loop: true,
     spaceBetween: 24,
+    loopAdditionalSlides: 2,
 
     navigation: {
         nextEl: '.swiper-button-next',
@@ -161,13 +162,13 @@ window.addEventListener('scroll', scrollHeader)
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
-    delay: 400,
+    duration: 1200,
+    delay: 100,
     reset: true,
 })
 
 sr.reveal(`.home__data, .projects__container`)
-sr.reveal('.home__info', {delay: 200, origin: 'bottom',interval: 50})
+sr.reveal('.home__info', {delay: 100, origin: 'bottom',interval: 20})
 sr.reveal(`.skills__content:nth-child(1), .contact__content:nth-child(1)`,{origin: 'left'})
 sr.reveal(`.skills__content:nth-child(2), .contact__content:nth-child(2)`,{origin: 'right'})
 sr.reveal('.qualification__content',{interval: 50})
