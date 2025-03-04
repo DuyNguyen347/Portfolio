@@ -338,7 +338,7 @@ body.dark-theme {
 .home__perfil img{
   width: 200px;
   /* padding-left: 10px; */
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 
 .home__social{
@@ -1139,8 +1139,6 @@ body.dark-theme {
   .home__title{
     font-size: var(--biggest-font-size);
     font-size: 2.6rem;
-    /* margin-bottom: 0;
-    margin-right: 20px; */
   }
   .home__blob{
     width: 360px;
@@ -1149,8 +1147,8 @@ body.dark-theme {
   }
 
   .home__perfil{
-    width: 340px;
-    height: 560px;
+    width: 350px;
+    height: 570px;
     border-radius: 10.6rem;
   }
   .home__perfil img{
