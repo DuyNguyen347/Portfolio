@@ -1003,7 +1003,7 @@ body.dark-theme {
   }
 
   .skills__container,
-  .qualification__container,
+  /* .qualification__container, */
   .contact__container{
     grid-template-columns: repeat(2, max-content);
   }
@@ -1113,6 +1113,9 @@ body.dark-theme {
     box-shadow: 0 6px 24px hsla(207, 24%, 8%, .6);
   }
 
+  .qualification__container{
+    grid-template-columns: repeat(2, max-content);
+  }
 }
 
 @media screen and (min-width: 1048px) {
